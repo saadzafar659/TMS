@@ -1,0 +1,8 @@
+com\task\task\unit\TaskServiceTest.class
+com\task\task\e2e\TaskForm.class
+com\task\task\integration\TaskControllerTestIT.class
+com\task\task\e2e\TestRunnerE2E.class
+com\task\task\TaskApplicationTests.class
+com\task\task\unit\TaskControllerTest.class
+com\task\task\unit\HTMLControllerTest.class
+com\task\task\integration\HTMLControllerTestIT.class
