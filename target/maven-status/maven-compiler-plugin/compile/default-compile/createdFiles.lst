@@ -1,9 +1,0 @@
-com\task\task\model\TaskDto.class
-com\task\task\exception\TaskNotFoundException.class
-com\task\task\controller\TaskController.class
-com\task\task\entity\TaskEntity.class
-com\task\task\controller\HTMLController.class
-com\task\task\service\TaskServiceImpl.class
-com\task\task\service\TaskService.class
-com\task\task\repository\TaskRepository.class
-com\task\task\TaskApplication.class
