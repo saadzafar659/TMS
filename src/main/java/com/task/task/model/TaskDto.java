@@ -7,17 +7,6 @@ public class TaskDto {
 	private String number;
 	private String email;
 
-	public TaskDto() {
-	}
-
-	public TaskDto(Long id, String name, String company, String number, String email) {
-		this.id = id;
-		this.name = name;
-		this.company = company;
-		this.number = number;
-		this.email = email;
-	}
-
 	public Long getId() {
 		return id;
 	}
@@ -57,4 +46,14 @@ public class TaskDto {
 	public void setEmail(String email) {
 		this.email = email;
 	}
+
+	public TaskDto(Long id, String name, String company, String number, String email) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.company = company;
+		this.number = number;
+		this.email = email;
+	}
+
 }

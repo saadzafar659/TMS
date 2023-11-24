@@ -23,19 +23,6 @@ public class TaskEntity {
 
 	private String email;
 
-	public TaskEntity() {
-	}
-
-	public TaskEntity(Long id, String name, String company, String number, String email) {
-		this.id = id;
-		this.name = name;
-		this.company = company;
-		this.number = number;
-		this.email = email;
-	}
-
-	// Getters and Setters
-
 	public Long getId() {
 		return id;
 	}
@@ -75,4 +62,14 @@ public class TaskEntity {
 	public void setEmail(String email) {
 		this.email = email;
 	}
+
+	public TaskEntity(Long id, String name, String company, String number, String email) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.company = company;
+		this.number = number;
+		this.email = email;
+	}
+
 }

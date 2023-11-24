@@ -1,0 +1,4 @@
+com\task\task\service\TaskServiceImpl.class
+com\task\task\service\TaskService.class
+com\task\task\repository\TaskRepository.class
+com\task\task\entity\TaskEntity.class
